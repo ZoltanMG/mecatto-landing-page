@@ -1,0 +1,119 @@
+.animation-up {
+  opacity: 0;
+  transform: translateY(70px);
+  transition: all 0.5s ease-out;
+}
+
+.animation-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.parallax-container {
+  /* background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092'); */
+  background-image: url('../../assets/images/paralax-restaurant.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.parallax-text {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 1rem;
+}
+
+.parallax-text h1{
+    font-size: 40px;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+  background-color: #1a1a1a;
+  justify-content: center;
+}
+
+.feature-card {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  aspect-ratio: 3 / 4; /* Mantiene proporción vertical pero adaptable */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #000; /* color de fondo por si la imagen no carga */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.feature-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  transition: transform 0.3s ease;
+}
+
+.feature-overlay {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  z-index: 1;
+}
+
+.feature-overlay h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.feature-overlay p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+.content-ver-mas {
+  background-color: #1a1a1a;
+}
+
+.ver-mas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.ver-mas p{
+  cursor: pointer;
+  font-family: 'tt_bluescreens', sans-serif;
+  color: white;
+  font-size: 55px;
+  opacity: 0.6;
+  transition: 180ms linear;
+}
+
+.ver-mas p:hover{
+  opacity: 1;
+}
+
+.ver-mas img{
+  width: 30px;
+  filter: invert(50%);
+}

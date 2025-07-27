@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Gilgan';
+  src: url('./assets/fonts/gilgan/Gilgan.otf') format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'tt_bluescreens';
+  src: url('./assets/fonts/tt_bluescreens/TT\ Bluescreens\ Trial\ Light\ Italic.ttf') format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.reserva-icon img {
+  border-radius: 50%;
+  width: 90px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 60px;
+  right: 70px;
+  z-index: 1000;
+  background-color: #fff89c;
+  transition: 180ms linear;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reserva-icon img:hover {
+  width: 100px;
+  background-color: #fff349;
 }
