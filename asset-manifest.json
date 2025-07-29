@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/mecatto-landing-page/static/css/main.7ecb6ad9.css",
+    "main.js": "/mecatto-landing-page/static/js/main.256c160e.js",
+    "static/media/panaderia.png": "/mecatto-landing-page/static/media/panaderia.061f11b89dac29396249.png",
+    "static/media/mecatto-local.png": "/mecatto-landing-page/static/media/mecatto-local.13bfb6f066725cdacb11.png",
+    "static/media/paralax-restaurant.png": "/mecatto-landing-page/static/media/paralax-restaurant.3213bb22e5f6d59c0bcf.png",
+    "static/media/reserva-icon.png": "/mecatto-landing-page/static/media/reserva-icon.86789ea4f83c04c46158.png",
+    "static/media/Medallon-cerdo.png": "/mecatto-landing-page/static/media/Medallon-cerdo.927ce2ad394870b1b483.png",
+    "static/media/Salmon.png": "/mecatto-landing-page/static/media/Salmon.cda69034409ba3c944a4.png",
+    "static/media/chesse-cake.png": "/mecatto-landing-page/static/media/chesse-cake.349571a94230b2043e98.png",
+    "static/media/red.png": "/mecatto-landing-page/static/media/red.e85aab24931c24e1ea23.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/mecatto-landing-page/static/media/Montserrat-VariableFont_wght.4df14eb5e72bf55c4497.ttf",
+    "static/media/papardalle-y-camarones.png": "/mecatto-landing-page/static/media/papardalle-y-camarones.9c93c5b0da3395741cd1.png",
+    "static/media/Merengon.png": "/mecatto-landing-page/static/media/Merengon.500be237e8f2dc833026.png",
+    "static/media/TT Bluescreens Trial Light Italic.ttf": "/mecatto-landing-page/static/media/TT Bluescreens Trial Light Italic.0e2f43e529d1935e42bb.ttf",
+    "static/media/Gilgan.otf": "/mecatto-landing-page/static/media/Gilgan.960267f1ec1d46f5fd0d.otf",
+    "static/media/email.png": "/mecatto-landing-page/static/media/email.67bda94140af311d041f.png",
+    "static/media/ig.png": "/mecatto-landing-page/static/media/ig.0636b76aa59ae4d811ec.png",
+    "static/media/store.png": "/mecatto-landing-page/static/media/store.664a5ae033fc9dc5a924.png",
+    "index.html": "/mecatto-landing-page/index.html",
+    "main.7ecb6ad9.css.map": "/mecatto-landing-page/static/css/main.7ecb6ad9.css.map",
+    "main.256c160e.js.map": "/mecatto-landing-page/static/js/main.256c160e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ecb6ad9.css",
+    "static/js/main.256c160e.js"
+  ]
+}
